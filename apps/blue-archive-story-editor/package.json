@@ -7,7 +7,7 @@
   "scripts": {
     "build": "vite build",
     "build:github": "pnpm build",
-    "dev": "vite --port 3333",
+    "dev": "vite --host --port 3333",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
